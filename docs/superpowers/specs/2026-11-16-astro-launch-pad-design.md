@@ -1,6 +1,6 @@
 # Astro Launch Pad: diseño del template
 
-Fecha: 2026-11-16. Estado: propuesta pendiente de aprobación; no autoriza todavía la implementación.
+Fecha: 2026-11-16. Estado: diseño aprobado por el usuario en la conversación; pendiente de revisar el plan de implementación.
 Repositorio: https://github.com/yurigo/astro-launch-pad
 
 ## 1. Propósito
@@ -27,7 +27,7 @@ El resultado combina una base Astro ejecutable con una entrada breve para agente
 
 ## 3. Elecciones propuestas por el diseñador del template
 
-Estas decisiones se someten a aprobación junto con el documento:
+Estas decisiones quedaron aprobadas junto con el documento:
 
 - TypeScript estricto para código nuevo, conservando scripts de navegador sencillos cuando corresponda. Vanilla describe ausencia de framework, no obliga a renunciar a TypeScript.
 - pnpm como único gestor y un lockfile versionado. Node en una versión LTS compatible con las versiones elegidas de Astro, Vue y Vercel. Comprobar versiones reales durante la implementación y documentarlas, sin inventar números.
